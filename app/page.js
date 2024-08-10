@@ -180,9 +180,6 @@ export default function Home() {
                 <Button color='error' variant="contained" onClick={() => removeItem(name)}>
                   -
                 </Button>
-                <Button variant="contained" onClick={() => removeItem(name)}>
-                  Remove
-                </Button>
               </Box>
             ))}
         </Stack>
